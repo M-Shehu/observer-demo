@@ -2,7 +2,7 @@ import React from "react";
 
 import rxjsLogo from "../../assets/images/rxjs.png";
 import reduxLogo from "../../assets/images/redux.svg";
-import { Flex, Text, Stack, Button } from "@chakra-ui/react";
+import { Text, Stack, Button } from "@chakra-ui/react";
 import { useHistory } from "react-router-dom";
 
 function Home() {
@@ -13,16 +13,16 @@ function Home() {
   };
   return (
     <Stack
-      isInline
+      direction={["column", "row"]}
       h="100vh"
       w="100%"
       align="center"
       justify="center"
       className="Home"
-      spacing="200px"
+      spacing={["100px", "200px"]}
       bg="#011527"
     >
-      <Flex d="column" align="center">
+      <Stack spacing="15px" align="center">
         <Button
           _hover={{ background: "#35414d" }}
           borderRadius="30px"
@@ -42,8 +42,8 @@ function Home() {
         <Text fontSize="30px" textAlign="center" color="white">
           Redux Demo
         </Text>
-      </Flex>
-      <Flex d="column" align="center">
+      </Stack>
+      <Stack spacing="20px" align="center">
         <Button
           _hover={{ background: "#35414d" }}
           borderRadius="30px"
@@ -58,7 +58,7 @@ function Home() {
         <Text fontSize="30px" textAlign="center" color="white">
           RxJS Demo
         </Text>
-      </Flex>
+      </Stack>
     </Stack>
   );
 }

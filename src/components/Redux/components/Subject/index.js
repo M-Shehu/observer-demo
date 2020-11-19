@@ -4,7 +4,7 @@ import { Input, Button, HStack } from "@chakra-ui/react";
 
 import store from "../Subject/store";
 
-function Subject({ observerName }) {
+function Subject() {
   const [color, setColor] = useState();
   const onChange = e => {
     setColor(e.target.value);

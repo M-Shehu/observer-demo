@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/App";
+import App from "./containers/App";
 import reportWebVitals from "./tests/reportWebVitals";
 
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";

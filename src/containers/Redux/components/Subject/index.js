@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { Input, Button, HStack } from "@chakra-ui/react";
 
-import store from "../Subject/store";
+import store from "./store";
 
 function Subject() {
   const [color, setColor] = useState();

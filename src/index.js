@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
+import App from "./components/App";
+import reportWebVitals from "./tests/reportWebVitals";
 
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 // 2. declare your configuration, these are the defaults

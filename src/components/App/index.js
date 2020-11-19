@@ -1,8 +1,8 @@
 import React from "react";
 
-import RxJS from "./components/RxJS";
-import Redux from "./components/Redux";
-import Home from "./components/Home";
+import RxJS from "../RxJS";
+import Redux from "../Redux";
+import Home from "../Home";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 

@@ -2,7 +2,7 @@ import React from "react";
 
 import rxjsLogo from "../../assets/images/rxjs.png";
 import reduxLogo from "../../assets/images/redux.svg";
-import { Flex, Box, Text, Stack, Button } from "@chakra-ui/react";
+import { Flex, Text, Stack, Button } from "@chakra-ui/react";
 import { useHistory } from "react-router-dom";
 
 function Home() {

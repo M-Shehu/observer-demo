@@ -2,7 +2,7 @@ import React from "react";
 
 import Subject from "./components/Subject";
 import Observer from "./components/Observer";
-import { Stack, Heading, HStack } from "@chakra-ui/react";
+import { Stack, Heading } from "@chakra-ui/react";
 
 function Redux() {
   return (

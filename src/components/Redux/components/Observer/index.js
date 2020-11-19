@@ -10,7 +10,7 @@ function Home({ children }) {
 
   useEffect(() => {
     store.subscribe(() => forceUpdate());
-  }, []);
+  }, [forceUpdate]);
 
   const color = store.getState().color;
 

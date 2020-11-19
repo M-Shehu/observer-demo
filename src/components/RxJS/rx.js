@@ -24,7 +24,7 @@ export const getZipCodes = (subject, showLoader) => {
       ajax({
         url,
         headers: {
-          "Vericred-Api-Key": "",
+          "Vericred-Api-Key": `${process.env.REACT_APP_VERICRED_API_KEY}`,
           "Accept-Version": "v3",
         },
       })

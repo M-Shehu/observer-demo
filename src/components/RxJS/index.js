@@ -24,7 +24,10 @@ function RxJS() {
         setZipAndCounties(zipAndCounties);
         setZipCodes(zipAndCounties.zipCodes);
       },
-      error => console.error(error)
+      error => {
+        setLoading(false);
+        console.error(error);
+      }
     );
 
     return () => subscription.unsubscribe();
